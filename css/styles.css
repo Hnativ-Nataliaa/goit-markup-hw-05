@@ -409,6 +409,8 @@ border-color: var(--color-ocean);
 }
 .customers-icon {
 fill: currentColor;
+transition-duration: 250ms;
+transition-timing-function: linear;
 }
 .customers-link:hover>.customers-icon{
 fill: var(--color-ocean);
